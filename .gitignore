@@ -1,11 +1,11 @@
-# vue files
+# vue project files
 vue/.DS_Store
 vue/node_modules/
 vue/dist/
 vue/npm-debug.log
 vue/yarn-error.log
 
-# python files
+# django project files
 __pycache__
 
 # Editor directories and files
