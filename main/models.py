@@ -6,6 +6,9 @@ from ckeditor_uploader.fields import RichTextUploadingField
 class Category(models.Model):
     name = models.CharField('Название', max_length=255, default='')
 
+    def __str__(self):
+        return self.name
+
 
 class News(models.Model):
     category = models.ForeignKey(
