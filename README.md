@@ -9,14 +9,14 @@
 # install dependencies
 pip install -r req.txt
 
-# create super user for accsess to admin panel
+# create super user for access to admin panel
 python manage.py createsuperuser
 
 ```
 
 ## Build Vue
 
-> project already built. *index.html* locate in *project/templates*, *build.js* locate in *static/js/*
+> project already built. *index.html* locate in *project/templates*, *build.js* locate in *project/static/js/*
 
 ``` bash
 # install dependencies
