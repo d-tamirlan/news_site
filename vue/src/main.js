@@ -7,19 +7,20 @@ Vue.use(Router);
 
 const router = new Router({
  routes: [
-   // {
-   //   path: '/',
-   //   name:'newsList',
-   //   component: App
-   // },
+   {
+     path: '/:page',
+     name:'newsList',
+     component: App,
+     props: true
+   },
    {
      path: '/news/:id',
      name:'news',
      component: News,
-     props: true,
-   },
+     props: true
+   }
  ]
-})
+});
 
 new Vue({
   el: '#app',

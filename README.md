@@ -1,11 +1,26 @@
-# test_project
+# News site
 
-> test_project
+> test news site on django and vue.js
 
-## Build Setup
+
+## Build Django
 
 ``` bash
 # install dependencies
+pip install -r req.txt
+
+# create super user for accsess to admin panel
+python manage.py createsuperuser
+
+```
+
+## Build Vue
+
+> project already built. *index.html* locate in *project/templates*, *build.js* locate in *static/js/*
+
+``` bash
+# install dependencies
+# go to project/vue directory and run command
 npm install
 
 # serve with hot reload at localhost:8080

@@ -24,7 +24,6 @@
     methods:{
       getNews(id){
         let news_url = this.$parent.rootDomain+'news/' + id +'/';
-//        alert(news_url);
 
         axios.get(news_url).then(response => {
           this.news = response.data;
@@ -45,20 +44,5 @@
 </script>
 
 <style lang="scss">
-  #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-    margin-top: 60px;
-  }
-  .categories-list{
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .categories-list__category{
-    margin-left: 20px;
-  }
+
 </style>
